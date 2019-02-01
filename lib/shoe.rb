@@ -1,17 +1,13 @@
-class Book
+class Shoe
 
-  def initialize(title)
-    @title = title
+  attr_accessor :color, :size: :material :condition
+  attr_reader :brand
+
+  def initialize(brand)
+    @brand = brand
   end
 
-  def title
-    @title
-
-  def author =(author)
-    @author=author
+  def cobble(condition)
+    @condtion = "New"
+    puts "Your shoe is as good as new!"
   end
-
-  def author
-    @author
-  end
-end
